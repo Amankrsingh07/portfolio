@@ -1,0 +1,30 @@
+{
+  "name": "aman-portfolio",
+  "version": "1.0.0",
+  "description": "Portfolio website with an Express and MySQL contact-message backend.",
+  "homepage": "https://github.com/bedimcode/responsive-portfolio-website-Alexa#readme",
+  "bugs": {
+    "url": "https://github.com/bedimcode/responsive-portfolio-website-Alexa/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bedimcode/responsive-portfolio-website-Alexa.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "check": "node --check server.js",
+    "health": "node -e \"fetch('http://localhost:' + (process.env.PORT || 3000) + '/api/health').then(async r => { console.log(await r.text()); process.exit(r.ok ? 0 : 1); }).catch(() => process.exit(1))\""
+  },
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^16.6.1",
+    "express": "^5.2.1",
+    "mysql2": "^3.14.4",
+    "resend": "^6.26.0"
+  }
+}

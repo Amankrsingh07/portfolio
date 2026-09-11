@@ -1,0 +1,5 @@
+{
+    "inlineChat.enableV2": false,
+    "chat.edits2.enabled": true,
+    "chat.agentSessionsViewLocation": "disabled"
+}
