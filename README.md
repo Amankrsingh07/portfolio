@@ -9,8 +9,7 @@ The portfolio showcases my technical skills, projects, resume, GitHub, LinkedIn 
 
 ## 🚀 Live Portfolio
 
-Coming soon...
-
+https://tourmaline-kashata-f67c7c.netlify.app/
 ---
 
 ## 👨‍💻 About the Project
